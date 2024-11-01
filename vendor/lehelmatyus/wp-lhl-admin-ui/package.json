@@ -1,0 +1,21 @@
+{
+  "name": "wp-lhl-admin-ui",
+  "version": "1.0.0",
+  "description": "Helper library to create plugin and theme settings and options page form elements",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0"
+  },
+  "dependencies": {
+    "sass": "^1.77.6"
+  }
+}

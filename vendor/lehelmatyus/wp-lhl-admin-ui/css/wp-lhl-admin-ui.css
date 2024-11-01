@@ -1,0 +1,297 @@
+/*******************************************
+ * Utility 
+ *******************************************/
+.lhl__load_spinner {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.lhl__hide {
+  display: none !important;
+}
+
+/*******************************************
+ * Spacing 
+ *******************************************/
+.lhl__p_5 {
+  padding: 5px;
+}
+
+.lhl__pl_5 {
+  padding-left: 5px;
+}
+
+.lhl__pl_20 {
+  padding-left: 20px;
+}
+
+.lhl__plr_5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*  */
+.lhl__pb_5 {
+  padding-bottom: 5px;
+}
+
+.lhl__pb_10 {
+  padding-bottom: 10px;
+}
+
+.lhl__pb_15 {
+  padding-bottom: 15px;
+}
+
+/*  */
+.lhl__pt_5 {
+  padding-top: 5px;
+}
+
+.lhl__pt_10 {
+  padding-top: 10px;
+}
+
+.lhl__pt_15 {
+  padding-top: 15px;
+}
+
+.lhl__pt_20 {
+  padding-top: 20px;
+}
+
+/*  */
+.lhl__ptb_15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*******************************************
+ * Elements 
+ *******************************************/
+.lhl__admin_button {
+  min-width: 140px;
+}
+
+.lhl__lead {
+  font-size: 16px;
+}
+
+/*******************************************
+ * Settings Page layout
+ *******************************************/
+.lhl__admin_form {
+  background: white;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.lhl__settings-page-icon {
+  background: #222;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  margin-top: -9px;
+  margin-right: 10px;
+}
+
+.lhl__admin_form tbody > tr {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(240, 240, 241, 0.5);
+  padding: 5px 13px !important;
+  display: block;
+  border-bottom: none;
+}
+
+.lhl__admin_form tbody > tr:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.lhl__admin_form tbody > tr:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.lhl__admin_form tbody > tr:last-child {
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+/*******************************************
+ * Specific Items 
+ *******************************************/
+.lhl__plugin-reviews {
+  padding-top: 47px;
+}
+
+.lhl__plugin-reviews div {
+  padding-bottom: 10px;
+}
+
+/*******************************************
+ * License Box
+ *******************************************/
+.lhl__license_box {
+  max-width: 700px;
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.lhl__license_box_label_active .lhl__license_box_label_inactive {
+  padding-left: 10px;
+}
+
+.lhl__license_box .lhl__license_box-view-button {
+  display: inline-block;
+}
+
+/*******************************************
+ * License Inputs
+ *******************************************/
+.lhl__restricted_box {
+  border: 1px solid rgb(255, 185, 0);
+  padding: 10px;
+  background: rgba(255, 185, 0, 0.1);
+}
+
+.lhl__restricted_box .lhl__license_notify_text {
+  /* color: #f56e28; */
+  color: rgb(224, 94, 27);
+}
+
+.lhl__alowed_box {
+  border: 1px solid #46b450;
+  padding: 10px;
+  background: rgba(70, 180, 80, 0.07);
+}
+
+.lhl__alowed_box .lhl__license_notify_text {
+  /* color: rgba(70, 180, 80, 1); */
+  color: rgb(32, 153, 43);
+}
+
+/*******************************************
+ * Button Styles
+ *******************************************/
+.lhl__btn_msg {
+  display: inline-block;
+}
+
+/*******************************************
+ * License Box 
+ *******************************************/
+/**
+ * License Card
+ */
+.lbrty-license-box {
+  max-width: 700px;
+  background: #fff;
+  margin: 20px 0;
+  padding: 0;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.lbrty-license-box .lbrty-license-box__title {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  margin: 0;
+}
+.lbrty-license-box .lbrty-license-box__title::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lbrty-license-box .lbrty-license-box__toggle_holder {
+  float: right;
+}
+.lbrty-license-box .llbrty-license-box__body {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.lbrty-license-box .llbrty-license-box__body .llbrty-license-box__body_inner {
+  padding: 20px;
+}
+.lbrty-license-box .lbrty-license-box__working_msg {
+  min-height: 30px;
+}
+.lbrty-license-box .lbrty-license-box__working_msg .lbrty_button_loader {
+  display: none;
+}
+.lbrty-license-box.working .lbrty-license-box__working_msg .lbrty_button_loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+.lbrty-license-box .lbrty-license-box__working_msg {
+  display: flex;
+  align-items: center;
+}
+.lbrty-license-box .lbrty-license-box__working_msg .lbrty-license-box-deactivate-key__msg {
+  display: inline-block;
+}
+.lbrty-license-box .lbrty-card-upgrade-account {
+  display: none;
+}
+.lbrty-license-box.lbrty-license-box--free {
+  display: block;
+}
+.lbrty-license-box .lbrty-view-key-button--close {
+  display: none;
+}
+.lbrty-license-box .lbrty-view-key-button--open {
+  display: inline-block;
+}
+.lbrty-license-box.open .llbrty-license-box__body {
+  height: auto;
+}
+.lbrty-license-box.open .lbrty-card-activate {
+  display: block !important;
+}
+.lbrty-license-box.open .lbrty-view-key-button--close {
+  display: inline-block;
+}
+.lbrty-license-box.open .lbrty-view-key-button--open {
+  display: none;
+}
+.lbrty-license-box .activated_label-active {
+  display: none;
+}
+.lbrty-license-box .activated_label-inactive {
+  display: inline;
+}
+.lbrty-license-box.lbrty-license-box--activated .activated_label-inactive {
+  display: none;
+}
+.lbrty-license-box.lbrty-license-box--activated .activated_label-active {
+  display: inline-block;
+}
+.lbrty-license-box.lbrty-license-box--activated .lbrty-card-create-account {
+  display: none;
+}
+.lbrty-license-box.lbrty-license-box--activated.lbrty-license-box--just-deactivated .activated_label-inactive {
+  display: inline-block;
+}
+.lbrty-license-box.lbrty-license-box--activated.lbrty-license-box--just-deactivated .activated_label-active {
+  display: none;
+}
+.lbrty-license-box.lbrty-license-box--activated.lbrty-license-box--just-deactivated .lbrty-card-create-account {
+  display: block;
+}
+.lbrty-license-box.lbrty-license-box--just-activated .activated_label-inactive {
+  display: none;
+}
+.lbrty-license-box.lbrty-license-box--just-activated .activated_label-active {
+  display: inline-block;
+}
+.lbrty-license-box.lbrty-license-box--just-activated .lbrty-card-create-account {
+  display: none;
+}
